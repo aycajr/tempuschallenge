@@ -12,9 +12,9 @@ output "vpc1_elb_sg_id" {
   value = "${aws_security_group.elb1.id}"
 }
 
-output "aws_default_security_group_id1" {
-  value = "${aws_default_security_group.default1.id}"
-}
+#output "aws_default_security_group_id1" {
+#  value = "${aws_default_security_group.default1.id}"
+#}
 
 ############## VPC2 #################
 output "vpc2_docker_container_sg_id" {
